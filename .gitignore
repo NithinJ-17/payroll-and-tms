@@ -1,0 +1,54 @@
+# Python-related (Backend)
+venv/
+*.pyc
+__pycache__/
+
+# Node.js-related (Frontend)
+node_modules/
+npm-debug.log
+yarn-debug.log*
+yarn-error.log*
+/.pnp
+.pnp.js
+.yarn/install-state.gz
+
+# Docker-related
+docker-compose.yml
+*.env
+
+# Logs
+*.log
+npm-debug.log*
+
+# IDE-specific files
+.vscode/
+.idea/
+*.swp
+
+# Operating system-specific
+.DS_Store
+Thumbs.db
+
+# Testing coverage
+/coverage
+
+# Next.js-related (Frontend)
+/.next/
+/out/
+/build
+
+# Miscellaneous
+*.pem
+
+# Local env files
+.env*.local
+
+# Vercel (Frontend)
+/.vercel
+
+# TypeScript-related
+*.tsbuildinfo
+next-env.d.ts
+
+# Database files
+postgres-data/
